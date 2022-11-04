@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import './App.css';
 import FloorPlan from './components/FloorPlan/FloorPlan';
 

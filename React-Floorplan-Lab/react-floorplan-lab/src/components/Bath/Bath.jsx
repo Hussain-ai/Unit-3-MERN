@@ -1,5 +1,5 @@
 import React from 'react'
-import './FullBath.css'
+import './Bath.css'
 
 function FullBath(props) {
   return (
