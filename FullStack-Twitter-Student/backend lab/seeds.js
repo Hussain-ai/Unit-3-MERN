@@ -5,14 +5,18 @@ const Tweet = require('./models/Tweet')
 Tweet.insertMany([
     {
         name: "Hussain",
-        TweetContent: "I get an error",
+        content: "I get an error",
     },
     {
         name: "Mohd",
-        TweetContent:"Hello World" ,
+        content:"Hello World" ,
     },
     {
         name: "Kareem",
-        TweetContent: "This lesson is easy",
+        content: "Do the deliverable",
     },
+    {
+        name:'Ahmed',
+        content: "This lesson is easy",
+    }
 ]).then(()=> console.log('Data added successfully!')).catch(err => console.log(err))

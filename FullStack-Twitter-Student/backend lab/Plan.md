@@ -15,3 +15,19 @@
     3. seeds.js -> insert sample data
     4. routes/tweets.js (and register route in index.js)
     5. controllers/tweets.js -> get All/get Detail
+6. Introduce a Users Model
+    - Associate the User Model with the Tweet Model using referencing
+        - Create a new file -> models/User.js
+        - Create a new Useer schema and model
+        - Add tweets property to reference te Tweet model
+    1. User hasMany Tweets
+
+    Stories:
+    - As a User, I want to create a new tweet 
+        - Create a User Controller file & User Router file
+
+        - Post /user ----> createUser --->
+
+        - POST /users/tweets --->createUserTweet
+    - As a User, I want to see all the tweets for a particular user
+        - Get /users/tweets route ---> getUserTweets

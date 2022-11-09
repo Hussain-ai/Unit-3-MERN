@@ -7,5 +7,9 @@ const tweetsController = require('../controllers/tweets')
 router.get('/tweets', tweetsController.getAllTweets)
 
 router.post('/tweets', tweetsController.createTweet)
+
+router.put('/tweets/:tweetId/put', tweetsController.updateTweet)
+router.delete('/tweets/:userId/:tweetId/delete', tweetsController.deleteTweet)
+
 //we export out routes
 module.exports = router

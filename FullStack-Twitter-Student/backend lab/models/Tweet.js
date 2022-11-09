@@ -6,7 +6,8 @@ const Schema = mongoose.Schema
 //Creating out Tweet Schema
 const TweetModel = new Schema({
     name: {type: String, require: true},
-    TweetContent: {type:String, required:true}
+    content: {type:String, required:true}
+    
 },{
     timestamps:true
 })
